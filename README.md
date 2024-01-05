@@ -157,4 +157,3 @@ for idx, x in enumerate(a):
 
 a 라는 리스트의 탐색 시 인덱스와 값을 반환해줌
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/af36eb56-9f35-4e4c-88c1-e016dbc2f930/Untitled.png)
