@@ -118,6 +118,7 @@ python에서 함수는 여러개의 값을 반환할 수 있다.
 함수에 이름이 없다.
 표현식, 내장함수의 인자로 사용할 때 장점
 일반 함수와 비교해보기
+
 def plus_one(x):
 return x + 1
 plus_two = lambda x: x+2
@@ -126,3 +127,34 @@ a = [1,2,3]
 print(list(map(pluse_one,a)))
 
 print(list(map(lambda x: x+1, a)))
+
+
+## 최솟값 구하기
+
+### 무한대로 초기화
+
+arrMin=flot(’inf’)
+
+최댓값 초기화값이랑 최솟값을 구하려는 배열이랑 계속 비교해서 작은 수 찾기 
+
+for i in range(len(arr)):
+
+if arr[i]<arrMin:
+
+arrMin = arr[i]
+
+평균 찾기
+
+sum(K)/len(K)
+
+반올림 하기
+
+round(sum(K)/len(K))
+
+for idx, x in enumerate(a):
+
+**enumerate** 란?
+
+a 라는 리스트의 탐색 시 인덱스와 값을 반환해줌
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/af36eb56-9f35-4e4c-88c1-e016dbc2f930/Untitled.png)
